@@ -1,0 +1,4 @@
+country,facility_name,operator,city,region,capacity_mw,capacity_basis,status,date_announced,date_operational,expected_operational,investment_value_usd,investment_currency,investment_fx_rate,investment_fx_date,energy_source,chip_type_if_known,primary_source,source_url,source_collected_date,source_published_date,confidence,notes
+USA,Northern Virginia DC1,AWS,Ashburn,Virginia,120.0,critical_it,operational,2022-01-15,2023-06-01,,800000000,USD,,,grid,H100,DC Byte 2026Q1,https://example.com/a,2026-04-15,2026-04-01,high,
+UAE,Stargate UAE,G42,Abu Dhabi,,50.0,critical_it,operational,2023-09-01,2024-12-01,,400000000,AED,3.6725,2024-12-31,renewable,B200,G42 press release 2024-12,https://example.com/b,2026-04-15,2024-12-15,high,Converted from AED at quarter-end rate
+USA,Stargate II,OpenAI/Oracle,Abilene,Texas,200.0,critical_it,permitted,2025-06-01,,2027-03-01,1500000000,USD,,,grid,,SEC 10-Q ORCL 2025Q4,,2026-04-15,2025-12-15,medium,

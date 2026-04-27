@@ -1,0 +1,10 @@
+country,facility_name,operator,city,region,capacity_mw,capacity_basis,status,date_announced,date_operational,expected_operational,investment_value_usd,investment_currency,investment_fx_rate,investment_fx_date,energy_source,chip_type_if_known,primary_source,source_url,source_collected_date,source_published_date,confidence,notes
+Atlantis,Mythical DC,Poseidon,,,100.0,critical_it,operational,2024-01-01,2025-01-01,,,USD,,,,,test_source,,2026-04-15,,high,unknown country
+USA,Bad Date Format,AWS,,,100.0,critical_it,operational,01/15/2024,2025-01-01,,,USD,,,,,test_source,,2026-04-15,,high,US-style date
+USA,TBD Date,AWS,,,100.0,critical_it,permitted,2024-01-01,,Q3 2026,,USD,,,,,test_source,,2026-04-15,,medium,qualitative timing
+USA,Negative Capacity,AWS,,,-50.0,critical_it,operational,2024-01-01,2025-01-01,,,USD,,,,,test_source,,2026-04-15,,high,negative MW
+USA,Locale Number,AWS,,,"120,5",critical_it,operational,2024-01-01,2025-01-01,,,USD,,,,,test_source,,2026-04-15,,high,locale-style decimal
+USA,Bad Status,AWS,,,100.0,critical_it,planning,2024-01-01,,,,USD,,,,,test_source,,2026-04-15,,medium,invalid status enum
+USA,Order Wrong,AWS,,,100.0,critical_it,operational,2025-06-01,2024-01-01,,,USD,,,,,test_source,,2026-04-15,,high,operational before announced
+USA,Missing Source,AWS,,,100.0,critical_it,operational,2024-01-01,2025-01-01,,,USD,,,,,,,2026-04-15,,high,no primary_source
+USA,Op No Date,AWS,,,100.0,critical_it,operational,2024-01-01,,,,USD,,,,,test_source,,2026-04-15,,medium,operational+no date+not high confidence (warning only)

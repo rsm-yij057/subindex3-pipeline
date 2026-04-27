@@ -1,0 +1,2 @@
+country,facility_name,operator,city,region,capacity_mw,capacity_basis,status,date_announced,date_operational,expected_operational,investment_value_usd,investment_currency,investment_fx_rate,investment_fx_date,energy_source,chip_type_if_known,primary_source,source_url,source_collected_date,source_published_date,confidence,notes
+USA,Northern Virginia Campus 1,AWS,Ashburn,Virginia,120.0,critical_it,operational,2022-01-15,2023-06-01,,800000000,USD,,,grid,H100,DC Byte 2026Q1,https://dcbyte.com/example,2026-04-15,2026-04-01,high,Example row — delete before importing real data
